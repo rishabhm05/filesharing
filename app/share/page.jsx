@@ -18,6 +18,7 @@ const Share = ({}) => {
     
   }
     return (
+      
     <div className='flex flex-col items-center justify-center'>
     <img src="/hero.jpg"  className='object-cover'/>
     <div className='flex flex-col mx-4 max-w-[300px]'>
@@ -27,6 +28,7 @@ const Share = ({}) => {
         <button onClick={handleClick} disabled={!name} className='px-4 py-2 bg-blue-500 my-4 text-white rounded-md'>Create Name</button>
     </div>
     </div>
+   
   )
 }
 
